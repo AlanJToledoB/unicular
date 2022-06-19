@@ -1,0 +1,160 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d9e4dd+11,000000+78,000000+78,000000+100,000000+100&0.65+9,0.65+9,0.65+10,0.65+10,0.65+10,0.65+10,0.65+10,0.65+11,0.65+11,0.65+12,0.65+12,0.65+12,0.65+12,0.65+12,0.65+13,0.65+14,0.65+14,0.65+14,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(217,228,221,0.65) 9%, rgba(217,228,221,0.65) 10%, rgba(217,228,221,0.65) 11%, rgba(214,225,218,0.65) 12%, rgba(211,222,215,0.65) 13%, rgba(208,219,212,0.65) 14%, rgba(0,0,0,0.17) 78%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(217,228,221,0.65) 9%,rgba(217,228,221,0.65) 10%,rgba(217,228,221,0.65) 11%,rgba(214,225,218,0.65) 12%,rgba(211,222,215,0.65) 13%,rgba(208,219,212,0.65) 14%,rgba(0,0,0,0.17) 78%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(217,228,221,0.65) 9%,rgba(217,228,221,0.65) 10%,rgba(217,228,221,0.65) 11%,rgba(214,225,218,0.65) 12%,rgba(211,222,215,0.65) 13%,rgba(208,219,212,0.65) 14%,rgba(0,0,0,0.17) 78%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d9e4dd', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #D9E4DD;
+	width: 100%;
+    height: 60px;
+	max-width: 1400px;
+	margin: auto;
+    text-align:right;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	display: block;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	border-bottom: aquamarine solid 5px;
+    padding: 15px;
+}
+.logo
+{
+    width: 70px;
+    position: relative;
+    bottom: 70px;
+}
+.titulo
+{
+    text-align: center;
+    font-size: 25px;
+}
+/*cards*/
+/*Cards*/
+.container-card{
+	width: 100%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+    border-radius: 100%;
+}
+.title-cards{
+	width: 100%;
+	max-width: 1080px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: #7a7a7a;
+}
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 6px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+.card img{
+	width: 80%;
+	height: 210px;
+    position: relative;
+    left: 40px;
+}
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+.card .contenido-card h3{
+	margin-bottom: 15px;
+	color: #7a7a7a;
+}
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 10%;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+	.container-card{
+		flex-wrap: wrap;
+	}
+	.card{
+		margin: 15px;
+	}
+}
+/*Fin-Cards*/
+#footer
+{
+    height: 400px;
+    background-image: url("img/FOOTER.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+	border-top: #7a7a7a7c solid 2px;
+	position: relative;
+	top: 50px;
+}
+.redes
+{
+    width: 50px;
+    position:relative;
+    top: 115px;
+    left: 21%;
+    margin: -1px;
+    border-radius: 50%;
+    display: inline;
+}
+.text_footer
+{
+    width: 700px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 300px;
+    color: rgba(0, 0, 0, 0.486);
+}
